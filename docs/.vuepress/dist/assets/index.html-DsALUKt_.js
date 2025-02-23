@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app-D70db4g8.js";const n={};function c(r,o){return a(),t("div")}const s=e(n,[["render",c],["__file","index.html.vue"]]),_=JSON.parse('{"path":"/java/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1740291072000},"filePathRelative":"java/README.md"}');export{s as comp,_ as data};

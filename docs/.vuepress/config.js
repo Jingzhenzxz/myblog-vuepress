@@ -2,6 +2,7 @@ import { viteBundler } from '@vuepress/bundler-vite';
 import { defaultTheme } from '@vuepress/theme-default';
 
 export default {
+    // base: "/myblog-vuepress/", // 部署到GitPages时才有用，必须与 GitHub 仓库名匹配
     bundler: viteBundler(),
     theme: defaultTheme({
         // logo: '/logo.png', // 网站LOGO
