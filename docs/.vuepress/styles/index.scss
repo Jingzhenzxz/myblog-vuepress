@@ -1,0 +1,28 @@
+// 让文章内容居中并增加字体大小
+.theme-default-content {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+// 设置全局字体
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+// 让代码块更好看
+pre, code {
+  background-color: #282c34;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .theme-default-content {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
